@@ -41,7 +41,23 @@ body
 
 .dados
 {
+  font-size: 8pt;
+  padding: 2px;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,165,32,1) 100%);
+}
+
+.texto-card
+{
+  text-align: left;
   font-size: 10pt;
-  text-align: center;
-  background
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.destaque
+{
+  font-weight: bold;
+  text-align: left;
+  font-size: 12pt;
+  color:#c8a2c8;
 }

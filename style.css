@@ -28,6 +28,7 @@ body
   text-align: left;
   font-size: 14pt;
   padding-left: 10px;
+
 }
 
 .hp
@@ -36,7 +37,6 @@ body
   font-size: 14pt;
   padding-right: 10px;
   color: red;
-  width: 100px;
 }
 
 .dados
@@ -76,10 +76,16 @@ hr
 .efeito-dados
 {
   text-align: center;
-  font-size: 16pt;
+  font-size: 24pt;
 }
 .simbolos
 {
   text-align: center;
+  font-size: 8pt;
+}
+.rodape-card
+{
+  border: 4px inset #daa520;
+  text-align: left;
   font-size: 8pt;
 }

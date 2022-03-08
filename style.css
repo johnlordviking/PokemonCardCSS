@@ -1,25 +1,16 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+body 
+{
+  background-color: #F6CF57;
+  text-align: center;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+.card
+{
+  margin:50px auto;
+  height: 500px;
+  width: 350px;
+  background: rgb(255,166,0);
+  background: linear-gradient(0deg, rgba(255,166,0,1) 0%, rgba(255,255,255,1) 100%);
+  border: 10px solid yellow;
+  border-radius: 10px;
 }

@@ -14,3 +14,9 @@ body
   border: 10px solid yellow;
   border-radius: 10px;
 }
+
+.img-pokemon
+{
+  max-width: 300px;
+  border: 4px inset #daa520;
+}

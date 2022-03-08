@@ -80,7 +80,9 @@ hr
 }
 .simbolos
 {
-  font-size: 8pt;
+  font-size: 6pt;
+  text-align: center;
+  vertical-align: middle;
 }
 .rodape-card
 {
